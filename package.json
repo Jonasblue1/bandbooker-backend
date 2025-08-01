@@ -1,0 +1,39 @@
+{
+  "name": "bandbooker-pro",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node --transpile-only server/index.ts",
+    "start": "node dist/index.js",
+    "migrate": "drizzle-kit push",
+    "build": "vite build",
+    "client": "vite"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.1.13",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.20.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-openidconnect": "^0.1.1",
+    "pg": "^8.16.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.0",
+    "tailwindcss": "^3.4.1",
+    "wouter": "^2.10.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.23",
+    "@types/express-session": "^1.18.2",
+    "@types/node": "^20.19.9",
+    "drizzle-kit": "^0.20.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vite": "^5.2.6"
+  },
+  "type": "commonjs"
+}
